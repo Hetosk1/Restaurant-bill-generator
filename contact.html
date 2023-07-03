@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header class="header sticky top-0 bg-white shadow-md flex items-center justify-between px-8 py-02">
+        <!-- logo -->
+        <h1 class="w-3/12">
+            <a href="">
+            <p class="text-indigo-500 text-3xl">4-Teen</p>
+            </a>
+        </h1>
+
+        <!-- navigation -->
+        <nav class="nav font-semibold text-lg">
+            <ul class="flex items-center">
+                <li class="p-3 border-b-2 border-indigo-500 border-opacity-0 hover:border-opacity-100 hover:text-indigo-500 duration-200 cursor-pointer active">
+                <a href="./bill/bill.php">Generate Bill</a>
+                </li>
+                <li class="p-3 border-b-2 border-indigo-500 border-opacity-0 hover:border-opacity-100 hover:text-indigo-500 duration-200 cursor-pointer">
+                <a href="./admin/admin_login.php">Admin Panel</a>
+                </li>
+                <li class="p-3 border-b-2 border-indigo-500 border-opacity-0 hover:border-opacity-100 hover:text-indigo-500 duration-200 cursor-pointer">
+                <a href="./contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- buttons --->
+        <div class="w-3/12 flex justify-end">
+        <a href='./index.html'>Home Page</a>
+        </div>
+
+    </header>
+
+    <div class="border border-indigo-500 mx-9 my-9 px-9 rounded rounded-lg py-9">
+
+      <h1 class="text-lg">
+        Contact Us 
+      </h1>
+      <form action='./contact.php' method='post'>
+        <label for="name">Name </label><br>
+        <input type="text" name="name" value="" class='border border-indigo-500 rounded rounded-lg'><br
+        <label for="email">Email</label><br>
+        <input type="text" name="email" value="" class="border border-indigo-500 rounded rounded-lg"><br>
+        <label for="message">Message </label><br>
+        <input type="text" name="message" value="" class='border border-indigo-500 rounded rounded-lg'><br>
+        <input type="submit" name="submit" value="Submit" class='bg-indigo-500 p-2 mt-3 rounded rounded-lg'>
+      </form>
+    </div>
+  </body>
+</html>
