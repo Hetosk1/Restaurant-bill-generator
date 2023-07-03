@@ -65,6 +65,6 @@ From : Het Jasani
 ![Alt text](./misc/image-13.png)
 
 ## You are good to go  
-### If for any reason the project is not running as it should then it's the issue of PHP not mine....🤬
+### If for any reason the project is not running as it should then it's the issue of PHP not mine....
 
 # Thanks for reading till here and please don't forget to drop a star 😁
